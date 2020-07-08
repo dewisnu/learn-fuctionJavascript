@@ -1,7 +1,16 @@
-function jumblahDuaBilangan(a,b) {
-    var jumblah = a + b;
+//sebelum menerapkan refactoring pada fuction jumblahDuaBilangan
+//function jumblahDuaBilangan(a,b) {
+   // var jumblah = a + b;
     
-    return jumblah;
+    //return jumblah;
+//}
+
+
+// setelah menerapkan refactoring pada fuction jumblahDuaBilangan
+// fuction menjadi lebih efisien dalam tampilan dan performa 
+function jumblahDuaBilangan(a,b) {
+  
+    return a + b;
 }
 
 var penguranganDuaBilangan = function (a,b) {
