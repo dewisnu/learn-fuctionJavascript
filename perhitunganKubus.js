@@ -1,9 +1,5 @@
 function jumnlahVolume(a,b) {
-    var  volume1= a * a * a;
-    var  volume2= b * b *b;
-    var hasil = volume1 + volume2;
-
-return hasil;
+     return a * a * a + b * b * b;
 }
 
 var confirm = true;
